@@ -1,0 +1,111 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  border: none;
+  background: dodgerblue;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem 3rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  border-radius: 0.6rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.btn-primary:focus {
+  outline: none;
+  transform: translateY(5px);
+}
+
+.image-container {
+  width: 30rem;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+}
+
+.profile-container img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.body-bottom {
+  padding: 10px 20px;
+  background: dodgerblue;
+  border-radius: 2rem;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.title {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.text {
+  text-align: left;
+  font-size: 1.8rem;
+  width: 28rem;
+  font-weight: 400;
+}
+
+.body-top {
+  display: flex;
+  background: #fff;
+  padding: 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 2em;
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.online {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(21, 202, 130);
+}
+
+button {
+  background: #fff;
+  color: dodgerblue;
+  font-size: 14px;
+  padding: 8px 15px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+button:focus {
+  outline: none;
+}
