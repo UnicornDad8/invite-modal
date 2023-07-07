@@ -18,15 +18,15 @@ const Modal = forwardRef((props, ref) => {
         <>
           <motion.div
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1, transition: { duration: 0.8 } }}
-            exit={{ opacity: 0, transition: { delay: 0.8 } }}
+            animate={{ opacity: 1, transition: { duration: 0.4 } }}
+            exit={{ opacity: 0, transition: { delay: 0.3 } }}
             onClick={() => setVisible(false)}
             className="blur"
           />
           <motion.div
             initial={{ scale: 0 }}
-            animate={{ scale: 1, transition: { duration: 0.8 } }}
-            exit={{ scale: 0, transition: { delay: 0.8 } }}
+            animate={{ scale: 1, transition: { duration: 0.4 } }}
+            exit={{ scale: 0 }} // transition: { delay: 0.8 } }}
             className="modal-box"
           >
             <div className="header">
